@@ -1,0 +1,25 @@
+
+/* HEADER */
+
+/* Nav */
+.smaller {
+    max-width: 900px;
+    margin: auto;
+}
+
+.link-menu {
+    text-align: right;
+}
+
+.nolistyle {
+    list-style-type: none;
+}
+
+.nolistyle li {
+    display: inline-block;
+}
+
+.nolistyle a {
+    text-decoration: none;
+    color: black;
+}
