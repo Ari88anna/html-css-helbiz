@@ -9,8 +9,12 @@ body {
 .smaller {
     max-width: 900px;
     margin: auto;
-    padding: 20px 5px;
+    padding: 20px 5px;    
 }
+.smaller .container > [class*="col-"] .container [class*="col-"] {
+    text-align: right;
+}
+
 
 .link-menu {
     text-align: right;
@@ -85,5 +89,22 @@ body {
 
 .col_content img {
     width: 100%;
+}
+
+/* how to section */
+
+.how-to {
+    background-image: url("../img/HelbizBanner.jpg");
+    height: 380px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.centred-phone img {
+    height: 600px;
+    margin:auto;
+    position: relative;
+    left: 550px;
+    top: 60px;
 }
 
