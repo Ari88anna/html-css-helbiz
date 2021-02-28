@@ -3,20 +3,24 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-/* HEADER */
 
-/* Nav */
 .smaller {
     max-width: 900px;
     margin: auto;
-    padding: 20px 5px;    
-}
-.smaller .container > [class*="col-"] .container [class*="col-"] {
-    text-align: right;
 }
 
+.space-out-inner {
+    padding: 40px;
+}
 
-.link-menu {
+/* HEADER */
+
+/* Nav */
+.top-nav {
+    padding: 20px 5px;
+}
+
+header nav {
     text-align: right;
 }
 
@@ -38,6 +42,7 @@ body {
 
 .nolistyle.lang li {
     border-left: 1px solid black;
+    padding-left: 10px;
 }
 
 .nolistyle.lang li:first-child {
@@ -45,7 +50,7 @@ body {
 }
 
 .burger-menu {
-    font-family: 20px;
+    font-size: 25px;
 }
 
 /* jumbotron */
@@ -53,29 +58,29 @@ body {
 .jumbotron {
     background-image: url("../img/hero-bg.jpg");
     height: 550px; 
-    position: relative;   
+    position: relative; 
+    color: white;
+    text-align: center;  
 }
 
-.jumbotron-title {
-    color: white;
-    text-align: center;
+.jumbo-title {    
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.jumbotron-title p {
+.jumbo-title h1 {
+    font-size: 40px;
+}
+
+.jumbo-title p {
     padding: 20px 0;
 }
 
 /* MAIN */
 
-/* bike section */
-
-.col_inner {
-    padding: 40px;
-}
+/* products */
 
 .col_content {
     text-align: center;
@@ -91,20 +96,115 @@ body {
     width: 100%;
 }
 
-/* how to section */
+/* helbiz banner */
 
-.how-to {
+.helbiz-banner {
     background-image: url("../img/HelbizBanner.jpg");
     height: 380px;
     background-size: contain;
     background-repeat: no-repeat;
 }
-
-.centred-phone img {
-    height: 600px;
-    margin:auto;
-    position: relative;
-    left: 550px;
-    top: 60px;
+.helbiz-banner img {
+    height: 650px;
+    display: block;
+    margin: auto;
 }
+
+/* how to section */
+
+.how-to {
+    padding: 110px 0;
+}
+
+.how-to.steps {
+    padding-left: 200px;
+}
+
+.text-content h3{
+    font-size: 25px;
+}
+
+.text-content p {
+    font-size: 12px;
+}
+
+/* smart mobility */
+.bg-mobility {
+    background-image: url("../img/ScooterHelbiz-2400.jpg");
+    height: 350px;
+    background-size: cover;
+}
+
+.mobility-inner {
+    padding: 90px 150px;
+}
+
+.mobility-text {
+    text-align: center;
+    color: white;
+}
+
+.mobility-text h2 {
+    font-size: 40px;
+}
+
+.mobility-text p {
+    padding: 10px 0;
+}
+
+.mobility-text a {
+    text-decoration: none;
+    color: white;
+}
+
+/* app */
+
+.app-inner {
+    padding: 20px 0;
+}
+
+.app-inner.left {
+    padding-right: 10px;
+}
+
+.app-inner.right {
+    padding-left: 10px;
+}
+
+.app-download {
+    background-color: darkslategrey;
+    height:450px;
+    overflow: hidden;
+}
+
+.app-text {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.app-text p {
+    padding: 20px 0;
+}
+
+.app-text a {
+    text-decoration: none;
+    color: white;
+}
+
+.app-phone img {
+    width: 100%;
+}
+
+
+.find-us {  
+    background-image: url("../img/cities-1500.jpg");
+    height: 450px;
+    background-size: cover;
+}
+
+
+
+
+
 
